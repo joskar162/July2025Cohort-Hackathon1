@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #232225;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -21,7 +21,7 @@ h1, h2 {
 section {
     padding: 2rem;
     margin: 1rem;
-    background-color: #fff;
+    background-color: #c8c9e6;
     border-radius: 5px;
 }
 
@@ -34,9 +34,54 @@ section {
     display: inline-block;
     margin-right: 10px;
     padding: 5px 10px;
-    background-color: #ddd;
+
     border-radius: 3px;
 }
+
+#{
+    /* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f2f5;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 40px;
+  color: #333;
+}
+
+.interest-section {
+  background-color: #fff;
+  max-width: 750px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.interest-section h1 {
+  font-size: 26px;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 10px;
+}
+
+.interest-list {
+  list-style-type: circle;
+  padding-left: 20px;
+}
+
+.interest-list li {
+  font-size: 16px;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
 
 .project {
     margin-bottom: 1rem;
